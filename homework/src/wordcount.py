@@ -1,7 +1,16 @@
 # obtain a list of files in the input directory
 import os
 
-from .write_count_words import write_count_words
+from ._internals.write_count_words import write_count_words
+
+# def read_all_lines():
+#     all_lines = []
+#     input_file_list = os.listdir("data/input/")
+#     for filename in input_file_list:
+#         with open(filename, "r", encoding="utf-8") as f:
+#             lines = f.readlines()
+#             all_lines.extend(lines)
+#     return all_lines
 
 
 def main():
